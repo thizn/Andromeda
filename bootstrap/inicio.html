@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="charset" content="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Inserindo o Bootstrap</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.min"></script>
+		<!--Atenção: como o boootstrap depende da biblioteca JQuery, sempre o arquivo do JQuery deve ser insirido acima do arquivo do Bootstrap-->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<style>
+		body{
+			background-color: white;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Titulo Maravilhoso</h1>
+
+		<button type="button" class="btn btn-primary"> CLICK HERE </button>
+		<button type="button" class="btn btn-warning"> CLICK HERE </button>
+		<button type="button" class="btn btn-danger"> CLICK HERE </button>
+		<button type="button" class="btn btn-default"> CLICK HERE </button>
+		<button type="button" class="btn btn-info"> CLICK HERE </button>
+		<button type="button" class="btn btn-link"> CLICK HERE </button>
+		<button type="button" class="btn btn-toolbar"> CLICK HERE </button>
+		<button type="button" class="btn btn-dark"> CLICK HERE </button>
+		<button type="button"> CLICK HERE </button>
+
+		<form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
+</div>
+
+<img src="img.jpg" class="rounded" alt="Cinque Terre">
+<img src="img.jpg" class="rounded-circle" alt="Cinque Terre">
+
+<img src="img.jpg" class="float-left">
+<img src="img.jpg" class="float-right">
+<img src="img.jpg" class="mx-auto d-block">
+<img class="img-fluid" src="img.jpg" alt="Chania">
+
+<!-- Media top -->
+<div class="media">
+  <img src="img.jpg" class="align-self-start mr-3" style="width:60px">
+  <div class="media-body">
+    <h4>Media Top</h4>
+    <p>Lorem ipsum...</p>
+  </div>
+</div>
+
+<!-- Media middle -->
+<div class="media">
+  <img src="img.jpg" class="align-self-center mr-3" style="width:60px">
+  <div class="media-body">
+    <h4>Media Middle</h4>
+    <p>Lorem ipsum...</p>
+  </div>
+</div>
+
+<!-- Media bottom -->
+<div class="media">
+  <img src="img.jpg" class="align-self-end mr-3" style="width:60px">
+  <div class="media-body">
+    <h4>Media Bottom</h4>
+    <p>Lorem ipsum...</p>
+  </div>
+</div>
+
+<div class="shadow-none p-4 mb-4 bg-light">No shadow</div>
+<div class="shadow-sm p-4 mb-4 bg-white">Small shadow</div>
+<div class="shadow p-4 mb-4 bg-white">Default shadow</div>
+<div class="shadow-lg p-4 mb-4 bg-white">Large shadow</div>
+
+<span class="rounded"></span>
+<span class="rounded-top"></span>
+<span class="rounded-right"></span>
+<span class="rounded-bottom"></span>
+<span class="rounded-left"></span>
+<span class="rounded-circle"></span>
+<span class="rounded-0"></span>
+
+<span class="border border-primary"></span>
+<span class="border border-secondary"></span>
+<span class="border border-success"></span>
+<span class="border border-danger"></span>
+<span class="border border-warning"></span>
+<span class="border border-info"></span>
+<span class="border border-light"></span>
+<span class="border border-dark"></span>
+<span class="border border-white"></span>
+
+<span class="border"></span>
+<span class="border border-0"></span>
+<span class="border border-top-0"></span>
+<span class="border border-right-0"></span>
+<span class="border border-bottom-0"></span>
+<span class="border border-left-0"></span>
+
+<div class="w-25 bg-warning">Width 25%</div>
+<div class="w-50 bg-warning">Width 50%</div>
+<div class="w-75 bg-warning">Width 75%</div>
+<div class="w-100 bg-warning">Width 100%</div>
+<div class="mw-100 bg-warning">Max Width 100%</div>
+
+<div style="height:200px;background-color:#ddd">
+  <div class="h-25 bg-warning">Height 25%</div>
+  <div class="h-50 bg-warning">Height 50%</div>
+  <div class="h-75 bg-warning">Height 75%</div>
+  <div class="h-100 bg-warning">Height 100%</div>
+  <div class="mh-100 bg-warning" style="height:500px">Max Height 100%</div>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  ...
+</nav>
+
+	</body>
+</html>
